@@ -14,7 +14,7 @@
 - 수집한 데이터는 데이터프레임 형태로 포맷팅(`./dataset/review_dataset.csv`)
 <img width="829" alt="스크린샷 2021-10-01 오전 11 17 06" src="https://user-images.githubusercontent.com/80144296/135555380-d074d1ee-2ff6-43e3-b39e-b0ab9103c8de.png">
 
-## 2. 사용 전 필수 초기세팅 절차
+## 2. 필수 초기세팅
 ### (1) 크롬 드라이버 설치
 - 사용 중인 크롬 버전([확인방법](https://support.google.com/chrome/answer/95414?hl=ko&co=GENIE.Platform%3DDesktop))에 맞는 [크롬 드라이버 설치](https://chromedriver.chromium.org/downloads)
 - 설치한 파일은 `src` 폴더의 상위에 위치
@@ -48,11 +48,39 @@ $ pip install pandas
 
 ## 3. 전체 파일구조
 ``` bash
-├─Github
-│  │  README.md
-│  │  chromedriver
+├─playstore-review-crawler
+│ README.md
+│ chromedriver
 │  ├─src
 │  │      crawler.ipynb
 │  └─dataset
-│          review_dataset.csv
-│          html_data.html
+│         review_dataset.csv
+```
+
+## 4. 실행 결과
+![crawler_park-gb](https://user-images.githubusercontent.com/80144296/135575934-3698afa4-6b74-48d9-ab1a-fae9210e073e.gif)
+
+## 📝 License
+```
+MIT License
+
+Copyright (c) 2021 Gyeongbin Park
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
