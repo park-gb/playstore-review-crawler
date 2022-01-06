@@ -10,8 +10,8 @@
   - 작성자 닉네임
   - 리뷰 내용
   - 리뷰 평점
-- Parsing 한 html 데이터 저장(`./dataset/html_data.html`)
-- 수집한 데이터는 데이터프레임 형태로 포맷팅(`./dataset/review_dataset.csv`)
+- Parsing 한 html 데이터 저장(`dataset/html_data.html`)
+- 수집한 데이터는 데이터프레임 형태로 포맷팅(`dataset/review_dataset.csv`)
 <img width="829" alt="스크린샷 2021-10-01 오전 11 17 06" src="https://user-images.githubusercontent.com/80144296/135555380-d074d1ee-2ff6-43e3-b39e-b0ab9103c8de.png">
 
 ## 2. 필수 초기세팅
