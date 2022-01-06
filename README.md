@@ -18,7 +18,7 @@
 ### (1) 크롬 드라이버 설치
 - 사용 중인 크롬 버전([확인방법](https://support.google.com/chrome/answer/95414?hl=ko&co=GENIE.Platform%3DDesktop))에 맞는 [크롬 드라이버 설치](https://chromedriver.chromium.org/downloads)
 - 설치한 파일은 `src` 폴더의 상위에 위치
-- 파일 확장자 이름 표기 여부에 따라 `./src/crawler.ipynb` 파일 내 chrome driver 파일명 택 1
+- 파일 확장자 이름 표기 여부에 따라 `src/crawler.ipynb` 파일 내 chrome driver 파일명 택 1
 ```python
 # chrome_driver = '../chromedriver.exe' # 파일 확장자 이름 표기
 chrome_driver = '../chromedriver' # 파일 확장자 이름 미표기
@@ -29,7 +29,7 @@ chrome_driver = '../chromedriver' # 파일 확장자 이름 미표기
 - App 소개 웹 페이지 URL 복사(아래 스크린샷 내 빨간 박스)
 <img width="800" alt="스크린샷 2021-10-01 오후 12 09 59" src="https://user-images.githubusercontent.com/80144296/135559627-356f1d9d-eac9-425d-aad9-e60403d8baba.png">
 
-- `./src/crawler.ipynb` 파일 내 App url 수정
+- `src/crawler.ipynb` 파일 내 App url 수정
 ```python
 url = 'https://play.google.com/store/apps/details?id=com.github.android' # 예시: Github App 주소
 ```
