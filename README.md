@@ -71,7 +71,8 @@ $ pip install pandas
 ![crawler_park-gb](https://user-images.githubusercontent.com/80144296/151113992-ee768495-84cd-45e7-a30c-6b1f90106096.gif)
 
 ## 참고문헌
-- 개인 블로그(Tistory): https://heytech.tistory.com/
+- 개인 블로그(Tistory): https://heytech.tistory.com/293
+- Gitgub: https://github.com/park-gb/playstore-review-crawler
 
 ## 📝 License
 ```
