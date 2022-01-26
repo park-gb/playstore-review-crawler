@@ -1,8 +1,12 @@
-# 파이썬 기반 구글 플레이 스토어 웹 크롤러
+# 파이썬 기반 구글 플레이 스토어 웹 크롤러 V1.0.0
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+
+# Notice!
+- 본 branch의 크롤러는 구글 플레이 스토어 웹페이지 구조 변경에 따라 정상적으로 동작하지 않습니다.
+- master branch의 크롤러를 이용해 주세요!
 
 ## 1. 주요 기능
 - App 사용자 리뷰 데이터 수집
