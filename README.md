@@ -4,7 +4,7 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 ## 1. 업데이트 Log
-- Last Updated @2022-01-26
+- Last Updated @2022-01-27
 ### (1) 업데이트 배경 
 - 구글 플레이 스토어 내 '모든 리뷰 보기' 페이지가 [Modal Window](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8B%AC_%EC%9C%88%EB%8F%84)로 변경됨에 따라 기존 Crawler 사용 불가
 
