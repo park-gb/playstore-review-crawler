@@ -62,7 +62,7 @@ $ pip install pandas
 │ chromedriver
 │  ├─src
 │  │      crawler.ipynb
-|  |      dataHTML.html
+│  │      dataHTML.html
 │  └─dataset
 │         review_dataset.csv
 ```
