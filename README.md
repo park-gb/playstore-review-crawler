@@ -3,6 +3,8 @@
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
+
+- 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2"](https://heytech.tistory.com/293)
 ## 1. 업데이트 Log
 ### 2022-06-22
 #### (1) 웹  크롤링 함수 내 '리뷰 모두 보기' 버튼 path 수정
@@ -74,10 +76,6 @@ $ pip install pandas
 
 ## 5. 실행 결과
 ![crawler_park-gb](https://user-images.githubusercontent.com/80144296/151113992-ee768495-84cd-45e7-a30c-6b1f90106096.gif)
-
-## 참고문헌
-- 개인 블로그(Tistory): https://heytech.tistory.com/293
-- Gitgub: https://github.com/park-gb/playstore-review-crawler
 
 ## 📝 License
 ```
