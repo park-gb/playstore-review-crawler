@@ -4,13 +4,18 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 ## 1. 업데이트 Log
-- Last Updated @2022-01-27
-### (1) 업데이트 배경 
-- 구글 플레이 스토어 내 '모든 리뷰 보기' 페이지가 [Modal Window](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8B%AC_%EC%9C%88%EB%8F%84)로 변경됨에 따라 기존 Crawler 사용 불가
+### 2022-06-22
+#### (1) 웹  크롤링 함수 내 '리뷰 모두 보기' 버튼 path 수정
+- AS-IS
+  - ```all_review_button_xpath = '/html/body/c-wiz[2]/div/div/div[1]/div[2]/div/div[1]/c-wiz[3]/section/div/div/div[5]/div/div/button/span'```
+- TO-BE (정상 동작 확인)
+  - ```all_review_button_xpath = '/html/body/c-wiz[2]/div/div/div[1]/div[2]/div/div[1]/c-wiz[4]/section/div/div/div[5]/div/div/button/span'```
 
-### (2) 업데이트 사항
-- Modal Window 내 자동 무한 크롤링 추가
-- 코드 Refactoring
+### 2022-01-27
+#### (1) Modal Window 내 자동 무한 크롤링 추가
+- 업데이트 배경
+  - 구글 플레이 스토어 내 '모든 리뷰 보기' 페이지가 [Modal Window](https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%8B%AC_%EC%9C%88%EB%8F%84)로 변경됨에 따라 기존 Crawler 사용 불가
+#### (2) 코드 Refactoring
 
 ## 2. 주요 기능
 - App 사용자 리뷰 데이터 수집
