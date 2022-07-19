@@ -1,11 +1,17 @@
-# 파이썬 기반 구글 플레이 스토어 웹 크롤러 V.2.0.0
+# 파이썬 기반 구글 플레이 스토어 웹 크롤러 V.2.0.2
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 
-- 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2"](https://heytech.tistory.com/293)
+- 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2.0.2"](https://heytech.tistory.com/293)
 ## 1. 업데이트 Log
+### 2022-07-19
+#### (1) 크롬 드라이버 강제 종료 코드 추가
+-  ```HTML 데이터 저장``` 섹션 전 단계에서  ```driver.quit()``` 코드 추가
+- 메모리 누수 방지를 위해 실행된 모든 크롬 드라이버 강제 종료
+- 정상 동작 확인
+
 ### 2022-06-22
 #### (1) 웹  크롤링 함수 내 '리뷰 모두 보기' 버튼 path 수정
 - AS-IS
