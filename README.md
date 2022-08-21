@@ -71,7 +71,7 @@ url = 'https://play.google.com/store/apps/details?id=com.github.android' # 예�
 
 
 ### (4) 파이썬 패키지 설치
-- ```master branch``` 클론 후 아래 명령어 실행
+- pipenv 설치 및  ```master branch``` 클론 후 아래 명령어 실행
 ```python
 $ pipenv install
 ```
@@ -83,8 +83,8 @@ $ pipenv install
 ## 4. 전체 파일구조
 ``` bash
 ├─playstore-review-crawler
-| Pipfile.lock
-| Pipfile.txt
+│ Pipfile.lock
+│ Pipfile.txt
 │ README.md
 │ chromedriver
 │  ├─src
