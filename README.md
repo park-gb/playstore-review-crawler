@@ -1,11 +1,21 @@
-# 파이썬 기반 구글 플레이 스토어 웹 크롤러 V.2.0.2
+# 파이썬 기반 구글 플레이 스토어 웹 크롤러 V.2.0.3
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 
-- 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2.0.2"](https://heytech.tistory.com/293)
+- 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2.0.3"](https://heytech.tistory.com/293)
 ## 1. 업데이트 Log
+### 2022-08-21
+#### (1) find_element 구문 수정 
+- 데이터 크롤링 섹션 내 16 line 수정 
+- ```selenium 4.3.0``` 이후 버전 ```find_element_by_*``` 구문이 제거됨에 따른 구문 수정 
+    - 변경 전: ```driver.find_element_by_xpath(all_review_button_xpath).click()```
+    - 변경 후: ```driver.find_element(By.XPATH,all_review_button_xpath).click()```
+
+#### (2) pipenv 가상환경 추가
+- dependency 고려 위함
+
 ### 2022-07-19
 #### (1) 크롬 드라이버 강제 종료 코드 추가
 -  ```HTML 데이터 저장``` 섹션 전 단계에서  ```driver.quit()``` 코드 추가
@@ -55,22 +65,26 @@ chrome_driver = '../chromedriver' # 파일 확장자 이름 미표기
 ```python
 url = 'https://play.google.com/store/apps/details?id=com.github.android' # 예시: Github App 주소
 ```
+### (3) pipenv 가상환경 설치
+- 1) [[Python] pipenv 등장배경, 설치, 패키지 관리 방법](https://heytech.tistory.com/320)
+- 2) [[Python] Jupyter Notebook(Lab)에 가상환경 커널 추가 방법](https://heytech.tistory.com/324)
 
-### (3) 파이썬 패키지 설치
+
+### (4) 파이썬 패키지 설치
+- ```master branch``` 클론 후 아래 명령어 실행
 ```python
-$ pip install beautifulsoup4
-$ pip install selenium
-$ pip install tqdm
-$ pip install pandas
+$ pipenv install
 ```
-- [beatuiful soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/): HTML/XML 문서 parsing
-- [selenium](https://selenium-python.readthedocs.io/installation.html): 브라우저 동작 자동 제어
-- [pandas](https://pandas.pydata.org/): 데이터 분석 라이브러리
-- [tqdm](https://pypi.org/project/tqdm/#installation): 작업 프로세스 바(progress bar) 시각화
+- python ==3.8
+- pandas==1.4.3
+- selenium==4.4.3
+- beautifulsoup4==4.11.1
 
 ## 4. 전체 파일구조
 ``` bash
 ├─playstore-review-crawler
+| Pipfile.lock
+| Pipfile.txt
 │ README.md
 │ chromedriver
 │  ├─src
@@ -106,4 +120,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
+``
