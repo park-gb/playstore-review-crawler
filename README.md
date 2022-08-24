@@ -1,4 +1,4 @@
-# 파이썬 기반 구글 플레이 스토어 웹 크롤러 V.2.0.3
+# 미국(US) 구글 플레이 스토어 웹 크롤러 V.2.0.4
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -6,6 +6,10 @@
 
 - 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2.0.3"](https://heytech.tistory.com/293)
 ## 1. 업데이트 Log
+### 2022-08-24
+- 본 branch는 미국(US) 구글 플레이 스토어 웹 크롤러입니다.
+- 국내(KR) 버전은 master branch를 참고해 주시길 바랍니다.
+
 ### 2022-08-21
 #### (1) find_element 구문 수정 
 - 데이터 크롤링 섹션 내 16 line 수정 
