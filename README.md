@@ -4,7 +4,8 @@
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
 
-- 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2.0.3"](https://heytech.tistory.com/293)
+- 참고1) 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2.0.3"](https://heytech.tistory.com/293)
+- 참고2) 미국(US) 구글 플레이 스토어 웹 크롤러: ```dev_us``` branch
 ## 1. 업데이트 Log
 ### 2022-08-21
 #### (1) find_element 구문 수정 
