@@ -7,8 +7,12 @@
 - 참고: 개인 블로그 포스팅 ["구글 플레이 스토어 웹 크롤러 코드 Version2.0.3"](https://heytech.tistory.com/293)
 ## 1. 업데이트 Log
 ### 2022-08-24
-- 본 branch는 미국(US) 구글 플레이 스토어 웹 크롤러입니다.
-- 국내(KR) 버전은 master branch를 참고해 주시길 바랍니다.
+- 본 branch(```dev_us```): 미국(US) 구글 플레이 스토어 웹 크롤러
+- 국내(KR) 버전: ```master``` branch 참고
+- ```tqdm``` 패키지 추가
+- US 사이트 HTML 코드 고려하여 rarting 정상 수집하도록 수정
+
+<img width="468" alt="스크린샷 2022-08-24 오후 8 35 30" src="https://user-images.githubusercontent.com/80144296/186408721-75b1132d-8815-452a-8b2c-52ed1eee04ff.png">
 
 ### 2022-08-21
 #### (1) find_element 구문 수정 
@@ -83,6 +87,7 @@ $ pipenv install
 - pandas==1.4.3
 - selenium==4.4.3
 - beautifulsoup4==4.11.1
+- tqdm==4.64.0
 
 ## 4. 전체 파일구조
 ``` bash

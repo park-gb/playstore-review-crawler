@@ -9,6 +9,7 @@ selenium = "*"
 bs4 = "*"
 pandas = "*"
 beautifulsoup4 = "*"
+tqdm = "*"
 
 [dev-packages]
 
